@@ -1,42 +1,29 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import play from '../../assets/play.svg';
-import './carousel.css';
+import './carouselTracks.css';
 import {Link} from 'react-router-dom';
 
-function CarouselAlbum(){
+function CarouselTracks(){
     const responsive = {
-        superLargeDesktop: {
-            // the naming can be any, depends on you.
-            breakpoint: { max: 4000, min: 2000 },
-            items: 4,
-            partialVisibilityGutter: 50
-        },
-        LargeDesktop: {
-            // the naming can be any, depends on you.
-            breakpoint: { max: 2000, min: 1600 },
-            items: 3,
-            partialVisibilityGutter: 50
-        },
         desktop: {
-            breakpoint: { max: 1600, min: 1050 },
-            items: 2,
+            breakpoint: { max: 3000, min: 1024 },
+            items: 3,
             partialVisibilityGutter: 80
         },
         tablet: {
             breakpoint: { max: 1050, min: 474 },
-            items: 1,
-            partialVisibilityGutter: 40
+            items: 2,
+            partialVisibilityGutter: 30
         },
         mobile: {
-            breakpoint: { max: 474, min: 0 },
+            breakpoint: { max: 464, min: 0 },
             items: 1,
-            partialVisibilityGutter: 40
+            partialVisibilityGutter: 30
         }
     };
     return(
         <>
-            <h1 className="titulo-playlist "><span className="gradient-txt">Listen now</span></h1>
             <Carousel 
             responsive={responsive}
             infinite={true}
@@ -44,30 +31,30 @@ function CarouselAlbum(){
             renderArrowsWhenDisabled={true}
             partialVisible
             arrows={false}
-            className='carousel'
+            className='carousel-tracks'
             
             >
                 <div>
                     <div className="image1"><span className="play-btn"><img src={play} alt="play" /></span></div>
-                    <p>Hip Hop Shapes</p>
+                    <p>Humanoid</p>
                 </div>
                 <div>
                     <div className="image2"><span className="play-btn"><img src={play} alt="play" /></span></div>
-                    <p>House Chemistry</p>
+                    <p>Venom</p>
                 </div>
                 <div>
                     <div className="image3"><span className="play-btn"><img src={play} alt="play" /></span></div>
-                    <p>Chill Patterns</p>
+                    <p>Fusion</p>
                 </div>
                 <div>
                     <div className="image4"><span className="play-btn"><img src={play} alt="play" /></span></div>
-                    <p>Future Wave</p>
+                    <p>Creature</p>
                 </div>
                 
             </Carousel>
-            <div className="background-color"></div>
+            
         </>
     )
 
 }
-export default CarouselAlbum;
+export default CarouselTracks;

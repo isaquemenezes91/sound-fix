@@ -1,25 +1,25 @@
-.image1{
+.carousel .image1{
     background-image: url('../../assets/image 25.svg');
     background-size: contain;
     width: 474px;
     height: 474px;
     margin: auto;
 }
-.image2{
+.carousel .image2{
     background-image: url('../../assets/image 26.svg');
     background-size: contain;
     width: 474px;
     height: 474px;
     margin: auto;
 }
-.image3{
+.carousel .image3{
     background-image: url('../../assets/image 27.svg');
     background-size: contain;
     width: 474px;
     height: 474px;
     margin: auto;
 }
-.image4{
+.carousel .image4{
     background-image: url('../../assets/image 28.svg');
     background-size: contain;
     width: 474px;
@@ -37,12 +37,12 @@
     line-height: 28px;
     
 }
-.play-btn{
+.carousel .play-btn{
     position: relative;
     top: 376px;
     left: 190px;
 }
-p{  
+.carousel p{  
     margin-top: 60px;
     color: black;
     font-family: 'Nunito';

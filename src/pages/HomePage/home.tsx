@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar/navbar';
 import Banner from '../../components/SectionBanner/banner';
 import CarouselAlbum from '../../components/carrousel/carousel';
 import About from '../../components/about/about';
+import Tracks from '../../components/outherTracks/tracks';
 
  function HomePage(){
     return(
@@ -11,6 +12,7 @@ import About from '../../components/about/about';
             <Banner/>
             <CarouselAlbum/>
             <About/>
+            <Tracks/>
         </div>
     )
 }
