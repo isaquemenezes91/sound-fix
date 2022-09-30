@@ -14,19 +14,19 @@ function CarouselAlbum(){
         },
         LargeDesktop: {
             // the naming can be any, depends on you.
-            breakpoint: { max: 2000, min: 1440 },
+            breakpoint: { max: 2000, min: 1600 },
             items: 3,
             partialVisibilityGutter: 50
         },
         desktop: {
-            breakpoint: { max: 1440, min: 1050 },
+            breakpoint: { max: 1600, min: 1050 },
             items: 2,
             partialVisibilityGutter: 80
         },
         tablet: {
             breakpoint: { max: 1050, min: 474 },
             items: 1,
-            partialVisibilityGutter: 150
+            partialVisibilityGutter: 40
         },
         mobile: {
             breakpoint: { max: 474, min: 0 },
@@ -40,7 +40,7 @@ function CarouselAlbum(){
             <Carousel 
             responsive={responsive}
             infinite={true}
-            itemClass = "carousel-item-padding-64-px" 
+            
             renderArrowsWhenDisabled={true}
             partialVisible
             arrows={false}
