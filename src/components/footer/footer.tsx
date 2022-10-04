@@ -12,8 +12,8 @@ export default function Footer(){
             </div>
             <nav className='menu-footer'>
                 <ul>
-                    <Link to={'/'}></Link><li>Home</li>
-                    <Link to={'/'}><li>Home</li><li>Playlists</li></Link>
+                    <Link to={'/'}><li>Home</li></Link>
+                    <Link to={'/'}><li>Playlists</li></Link>
                     <Link to={'/'}><li>Contact</li></Link>
                     <Link to={'/'}><li>About</li></Link>
                     <Link to={'/'}><li><img src={instagram} alt="instagram" /></li></Link>
