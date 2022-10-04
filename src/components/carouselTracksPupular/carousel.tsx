@@ -27,27 +27,27 @@ function CarouselTracksPopular(){
             <Carousel 
             responsive={responsive}
             infinite={true}
-            
+            arrows={true}
             renderArrowsWhenDisabled={true}
             partialVisible
-            arrows={false}
+           
             className='carousel-tracks-popular'
             
             >
                 <div>
-                    <div className="image1"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image1"><span className="play-btn1"><img src={play} alt="play" /></span></div>
                     <p>Coruja</p>
                 </div>
                 <div>
-                    <div className="image2"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image2"><span className="play-btn1"><img src={play} alt="play" /></span></div>
                     <p>Purple Magic</p>
                 </div>
                 <div>
-                    <div className="image3"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image3"><span className="play-btn1"><img src={play} alt="play" /></span></div>
                     <p>Ares</p>
                 </div>
                 <div>
-                    <div className="image4"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image4"><span className="play-btn1"><img src={play} alt="play" /></span></div>
                     <p>Mask 103</p>
                 </div>
                 

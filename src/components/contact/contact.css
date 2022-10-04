@@ -1,0 +1,90 @@
+.wave-contact{
+    position: relative;
+    top: 710px;
+    width: 100%;
+    z-index: -1;
+}
+.wave-contact-inverso{
+    position: relative;
+    top: 654px;
+    width: 100%;
+    z-index: -1;
+}
+.background-contact{
+    width: 100%;
+    height:530px;
+    background: linear-gradient(128.49deg, #3378FF 0%, #9442FE 110%);
+    position: relative;
+    top: 695px;
+    
+}
+.titulo-contact{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 28px;
+    position: relative;
+    top: 50px;
+}
+
+.alinhamento-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+}
+
+.alinhamento-card div{
+    min-width: 350px;
+    padding: 0 130px;
+}
+.icon-phone{
+    padding-bottom: 25px;
+}
+.titulo-phone{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}
+.phone{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #F7F7FB;
+    padding-bottom: 18px;
+}
+
+.icon-email{
+    padding-bottom: 25px;
+}
+.titulo-email{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}
+.email{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #F7F7FB;
+    padding-bottom: 18px;
+}

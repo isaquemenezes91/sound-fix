@@ -4,8 +4,11 @@ import Banner from '../../components/SectionBanner/banner';
 import CarouselAlbum from '../../components/carrousel/carousel';
 import About from '../../components/about/about';
 import Tracks from '../../components/outherTracks/tracks';
+import Contact from '../../components/contact/contact';
+import Footer from '../../components/footer/footer';
+ 
 
- function HomePage(){
+function HomePage(){
     return(
         <div>
             <Navbar/>
@@ -13,6 +16,8 @@ import Tracks from '../../components/outherTracks/tracks';
             <CarouselAlbum/>
             <About/>
             <Tracks/>
+            <Contact/>
+            <Footer/>
         </div>
     )
 }

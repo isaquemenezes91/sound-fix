@@ -2,7 +2,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import play from '../../assets/play.svg';
 import './carousel.css';
-import {Link} from 'react-router-dom';
+import arrowleft from '../../assets/arrowleft.svg';
+import arrowright from '../../assets/arrowright.svg';
 
 function CarouselAlbum(){
     const responsive = {
@@ -34,6 +35,20 @@ function CarouselAlbum(){
             partialVisibilityGutter: 40
         }
     };
+    function CustomLeftArrow(){
+        return(
+            <div>
+                <img src={arrowleft} alt="arrow" />
+            </div>
+        )
+    }
+    function CustomRightArrow(){
+        return(
+            <div>
+                <img src={arrowright} alt="arrow" />
+            </div>
+        )
+    }
     return(
         <>
             <h1 className="titulo-playlist "><span className="gradient-txt">Listen now</span></h1>
@@ -41,9 +56,10 @@ function CarouselAlbum(){
             responsive={responsive}
             infinite={true}
             
-            renderArrowsWhenDisabled={true}
+            renderArrowsWhenDisabled={false}
             partialVisible
-            arrows={false}
+            arrows={true}
+            
             className='carousel'
             
             >

@@ -41,6 +41,7 @@
     position: relative;
     top: 376px;
     left: 190px;
+    
 }
 .carousel p{  
     margin-top: 60px;
@@ -60,3 +61,4 @@
     top: 1379px;
     z-index: -1;
 }
+

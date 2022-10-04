@@ -30,24 +30,24 @@ function CarouselTracks(){
             
             renderArrowsWhenDisabled={true}
             partialVisible
-            arrows={false}
+            arrows={true}
             className='carousel-tracks'
             
             >
                 <div>
-                    <div className="image1"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image1"><span className="play-btn1"><img src={play} alt="play" /></span></div>
                     <p>Humanoid</p>
                 </div>
                 <div>
-                    <div className="image2"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image2"><span className="play-btn1"><img src={play} alt="play" /></span></div>
                     <p>Venom</p>
                 </div>
                 <div>
-                    <div className="image3"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image3"><span className="play-btn1"><img src={play} alt="play" /></span></div>
                     <p>Fusion</p>
                 </div>
                 <div>
-                    <div className="image4"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image4"><span className="play-btn1"><img src={play} alt="play" /></span></div>
                     <p>Creature</p>
                 </div>
                 

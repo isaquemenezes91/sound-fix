@@ -1,15 +1,15 @@
 .wave1{
     width: 100%;
-    position: absolute;
-    top:1891px;
+    position: relative;
+    top:145px;
     left: 0;
 }
 .backgound-about{
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 1000px;
+    height: 1020px;
     left: 0px;
-    top:  2003px;
+    top:  140px;
 
     /* gradient 2 */
 

@@ -1,0 +1,70 @@
+footer{
+    position: relative;
+    top:800px;
+    background-color: black ;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    
+}
+.logo-footer{
+    margin-top: 130px;
+    margin-bottom: 111px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    /* or 125% */
+
+
+    /* Neutral 7 */
+
+    color: #F7F7FB;
+
+}
+.menu-footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.menu-footer ul li{
+    padding: 0 20px;
+    margin-bottom: 62px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+
+    color: #F7F7FB;
+    
+}
+.menu-footer ul li:hover{
+    color: #ECE817;
+
+}
+.linha-footer{
+    width: 100%;
+    border: 1px solid #F7F7FB;
+
+}
+.direitos-autorais{
+    padding:33px 0 47px 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #F7F7FB;
+
+}

@@ -10,8 +10,8 @@
     line-height: 28px;
     width: 100%;
     padding: 15px 0; 
-    position: absolute;
-    top: 3073px;
+    position: relative;
+    top: 300px;
 
 }
 .tracks h2{
@@ -21,13 +21,13 @@
     font-size: 30px;
     line-height: 28px;
     position: relative;
-    top: 1507px;
+    top: 426px;
     left: -420px;
 }
 
 .carousel-tracks-alinhamento{
     position: relative;
-    top: 1600px;
+    top: 500px;
     width: 1300px;
     margin:auto;
     left: 60px;
@@ -35,7 +35,7 @@
 .tracks .popular-tracks{
     margin-top: 155px;
     position: relative;
-    top: 1500px;
+    top: 426px;
     left: -450px;
 
   
