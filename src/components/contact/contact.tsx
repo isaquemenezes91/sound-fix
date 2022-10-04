@@ -27,7 +27,8 @@ export default function Contact(){
                 </div>
 
            </div>
-           <img src={wave2} alt="background" className='wave-contact-inverso'/>       
+           <img src={wave2} alt="background" className='wave-contact-inverso'/>  
+           <div className='background-gradiente'></div>     
         </>
     )
 }

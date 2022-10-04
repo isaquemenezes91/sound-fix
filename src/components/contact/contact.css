@@ -2,7 +2,7 @@
     position: relative;
     top: 710px;
     width: 100%;
-    z-index: -1;
+    z-index: 1;
 }
 .wave-contact-inverso{
     position: relative;
@@ -87,4 +87,15 @@
     text-align: center;
     color: #F7F7FB;
     padding-bottom: 18px;
+}
+
+.background-gradiente{
+    position: absolute;
+    width: 809px;
+    height: 1041px;
+    left: -382px;
+    top: 4000px;
+    z-index: -1;
+    background: linear-gradient(128.49deg, #3378FF 0%, #9442FE 100%);
+    filter: blur(450px);
 }

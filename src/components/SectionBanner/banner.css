@@ -27,11 +27,12 @@
     
 }
 .background{
+
     position: absolute;
-    width: 25%;
-    height: 30%;
-    left: 70%;
+    width: 536px;
+    height: 724px;
     top: -83px;
+    right: 0;
     z-index: -1;
     background: linear-gradient(128.49deg, #3378FF 0%, #9442FE 100%);
     filter: blur(450px);
