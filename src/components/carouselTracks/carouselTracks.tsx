@@ -9,7 +9,7 @@ function CarouselTracks(){
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
             items: 3,
-            partialVisibilityGutter: 80
+            partialVisibilityGutter: 50
         },
         tablet: {
             breakpoint: { max: 1050, min: 474 },
