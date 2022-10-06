@@ -1,0 +1,64 @@
+.carousel .image1{
+    background-image: url('../../assets/image 25.svg');
+    background-size: contain;
+    width: 474px;
+    height: 474px;
+    margin: auto;
+}
+.carousel .image2{
+    background-image: url('../../assets/image 26.svg');
+    background-size: contain;
+    width: 474px;
+    height: 474px;
+    margin: auto;
+}
+.carousel .image3{
+    background-image: url('../../assets/image 27.svg');
+    background-size: contain;
+    width: 474px;
+    height: 474px;
+    margin: auto;
+}
+.carousel .image4{
+    background-image: url('../../assets/image 28.svg');
+    background-size: contain;
+    width: 474px;
+    height: 474px;
+    margin: auto;
+}
+
+.titulo-playlist{
+    margin-top: 120px;
+    margin-bottom: 80px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 28px;
+    
+}
+.carousel .play-btn{
+    position: relative;
+    top: 376px;
+    left: 190px;
+    
+}
+.carousel p{  
+    margin-top: 60px;
+    color: black;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 28px;
+}
+
+.background-color{
+    background-color: white;
+    width: 100%;
+    height: 1557px;
+    position: absolute;
+    top: 1379px;
+    z-index: -1;
+}
+
