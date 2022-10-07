@@ -8,7 +8,7 @@ import './contact.css';
 export default function Contact(){
     return(
         <>
-           <img src={wave1} alt="background" className='wave-contact'/>
+           <img src={wave1} alt="background" className='wave-contact'draggable="false"/>
            <div className='background-contact'>
                 <h1 className='titulo-contact'><span className='gradient-txt'>Contact us</span></h1>
                 <div className='alinhamento-card'>
@@ -20,14 +20,14 @@ export default function Contact(){
                     </div>
                     <div>
                         <img src={icon2} alt="icon-phone" className='icon-phone' />
-                        <h2 className='titulo-phone'>Email</h2>
+                        <h2 className='titulo-phone'>Phone</h2>
                         <h3 className='phone'>call me at</h3>
                         <h3 className='phone'>917.244.0303.</h3>
                     </div>
                 </div>
 
            </div>
-           <img src={wave2} alt="background" className='wave-contact-inverso'/>  
+           <img src={wave2} alt="background" className='wave-contact-inverso'draggable="false"/>  
            <div className='background-gradiente'></div>     
         </>
     )

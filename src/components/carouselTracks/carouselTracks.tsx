@@ -7,19 +7,19 @@ import {Link} from 'react-router-dom';
 function CarouselTracks(){
     const responsive = {
         desktop: {
-            breakpoint: { max: 3000, min: 1024 },
+            breakpoint: { max: 3000, min: 1440 },
             items: 3,
             partialVisibilityGutter: 50
         },
         tablet: {
-            breakpoint: { max: 1050, min: 474 },
+            breakpoint: { max: 1439, min: 474 },
             items: 2,
-            partialVisibilityGutter: 30
+            partialVisibilityGutter: 50
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
             items: 1,
-            partialVisibilityGutter: 30
+            partialVisibilityGutter: 50
         }
     };
     return(
@@ -35,19 +35,19 @@ function CarouselTracks(){
             
             >
                 <div>
-                    <div className="image1"><span className="play-btn1"><img src={play} alt="play" /></span></div>
+                    <div className="image1"><span className="play-btn1"><img src={play} alt="play" className="play"draggable="false"/></span></div>
                     <p>Humanoid</p>
                 </div>
                 <div>
-                    <div className="image2"><span className="play-btn1"><img src={play} alt="play" /></span></div>
+                    <div className="image2"><span className="play-btn1"><img src={play} alt="play"className="play" draggable="false"/></span></div>
                     <p>Venom</p>
                 </div>
                 <div>
-                    <div className="image3"><span className="play-btn1"><img src={play} alt="play" /></span></div>
+                    <div className="image3"><span className="play-btn1"><img src={play} alt="play"className="play"draggable="false"/></span></div>
                     <p>Fusion</p>
                 </div>
                 <div>
-                    <div className="image4"><span className="play-btn1"><img src={play} alt="play" /></span></div>
+                    <div className="image4"><span className="play-btn1"><img src={play} alt="play"className="play" draggable="false"/></span></div>
                     <p>Creature</p>
                 </div>
                 

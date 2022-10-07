@@ -1,5 +1,5 @@
 
-
+import { useEffect, useState } from "react";
 import './navbar.css';
 import logo from '../../assets/logo.svg';
 import instagram from '../../assets/instagram.svg';
@@ -10,9 +10,26 @@ import { Link } from 'react-router-dom';
 
 function Navbar(){
 
+    const [stickyClass, setStickyClass] = useState('');
+
+    useEffect(() => {
+      window.addEventListener('scroll', stickNavbar);
+  
+      return () => {
+        window.removeEventListener('scroll', stickNavbar);
+      };
+    }, []);
+  
+    const stickNavbar = () => {
+      if (window !== undefined) {
+        let windowHeight = window.scrollY;
+        windowHeight > 0 ? setStickyClass('scroll') : setStickyClass('');
+      }
+    }; 
+
 
     return(
-        <nav className='menu'>
+        <nav className={`menu ${stickyClass}`}>
             <img src={logo} alt="Logo" />
             <ul className='btn-menu'>
                 
@@ -64,6 +81,7 @@ function Navbar(){
             </ul>
             
         </nav>
+
     )
 }
 

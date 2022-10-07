@@ -8,13 +8,13 @@ import arrowright from '../../assets/arrowright.svg';
 function CarouselAlbum(){
     const responsive = {
         superLargeDesktop: {
-            // the naming can be any, depends on you.
+           
             breakpoint: { max: 4000, min: 2000 },
             items: 4,
             partialVisibilityGutter: 50
         },
         LargeDesktop: {
-            // the naming can be any, depends on you.
+            
             breakpoint: { max: 2000, min: 1600 },
             items: 3,
             partialVisibilityGutter: 50
@@ -64,19 +64,19 @@ function CarouselAlbum(){
             
             >
                 <div>
-                    <div className="image1"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image1"><span className="play-btn"><img src={play} alt="play" draggable="false"/></span></div>
                     <p>Hip Hop Shapes</p>
                 </div>
                 <div>
-                    <div className="image2"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image2"><span className="play-btn"><img src={play} alt="play" draggable="false"/></span></div>
                     <p>House Chemistry</p>
                 </div>
                 <div>
-                    <div className="image3"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image3"><span className="play-btn"><img src={play} alt="play"draggable="false" /></span></div>
                     <p>Chill Patterns</p>
                 </div>
                 <div>
-                    <div className="image4"><span className="play-btn"><img src={play} alt="play" /></span></div>
+                    <div className="image4"><span className="play-btn"><img src={play} alt="play" draggable="false"/></span></div>
                     <p>Future Wave</p>
                 </div>
                 

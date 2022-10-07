@@ -5,7 +5,7 @@ import imageabout from '../../assets/image-about.svg';
 function About(){
     return(
         <>
-            <img src={wave1} alt="background" className='wave1'/>
+            <img src={wave1} alt="background" className='wave1'draggable="false"/>
             <div className='backgound-about alinhamento-about'>
                 <article>
                     <h1>About SoundFix</h1>

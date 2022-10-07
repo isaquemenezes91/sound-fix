@@ -7,12 +7,12 @@ import {Link} from 'react-router-dom';
 function CarouselTracksPopular(){
     const responsive = {
         desktop: {
-            breakpoint: { max: 3000, min: 1024 },
+            breakpoint: { max: 3000, min: 1440 },
             items: 3,
             partialVisibilityGutter: 50
         },
         tablet: {
-            breakpoint: { max: 1050, min: 474 },
+            breakpoint: { max: 1439, min: 474 },
             items: 2,
             partialVisibilityGutter: 30
         },
@@ -35,19 +35,19 @@ function CarouselTracksPopular(){
             
             >
                 <div>
-                    <div className="image1"><span className="play-btn1"><img src={play} alt="play" /></span></div>
+                    <div className="image1"><span className="play-btn1"><img src={play} alt="play" className="play" draggable="false"/></span></div>
                     <p>Coruja</p>
                 </div>
                 <div>
-                    <div className="image2"><span className="play-btn1"><img src={play} alt="play" /></span></div>
+                    <div className="image2"><span className="play-btn1"><img src={play} alt="play" className="play" draggable="false"/></span></div>
                     <p>Purple Magic</p>
                 </div>
                 <div>
-                    <div className="image3"><span className="play-btn1"><img src={play} alt="play" /></span></div>
+                    <div className="image3"><span className="play-btn1"><img src={play} alt="play" className="play"draggable="false"/></span></div>
                     <p>Ares</p>
                 </div>
                 <div>
-                    <div className="image4"><span className="play-btn1"><img src={play} alt="play" /></span></div>
+                    <div className="image4"><span className="play-btn1"><img src={play} alt="play"className="play"draggable="false"/></span></div>
                     <p>Mask 103</p>
                 </div>
                 
